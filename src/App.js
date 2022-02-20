@@ -17,12 +17,6 @@ function App() {
   return (
     <View style={styles.app}>
       <View style={styles.header}>
-        <Image
-          accessibilityLabel="React logo"
-          source={{ uri: logoUri }}
-          resizeMode="contain"
-          style={styles.logo}
-        />
         <Text style={styles.title}>React Native for Web</Text>
       </View>
       <Text style={styles.text}>
